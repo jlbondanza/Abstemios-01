@@ -33,6 +33,7 @@ p.rafa{
 	font-variant: normal;
 	font-weight: 400;
 	margin: 70px 0 20px;
+	line-height: 36px;
 
 	}
 
@@ -92,12 +93,13 @@ h2{
 	}
 
 
-h3{
+p.names {
 
 	color: white;
 	font-size: 20px;
 	font-variant: bold;
 	margin: 0;
+	font-weight: 600;
 
 	}
 
