@@ -6,11 +6,13 @@ body {
 	line-height: 26px;
 }
 
+/* HEADER STYLES */
+
 header {
 
   background-image: url("../img/abstemios-header.jpg");
   background-color: #1B1C1D; 
-  height: 650px; 
+  height: 540px; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -19,6 +21,27 @@ header {
   padding-bottom: 50px;
 }
 
+img.logo {
+	width:150px;
+}
+
+p.rafa{
+
+	color: white;
+	font-style: italic;
+	font-size: 24px;
+	font-variant: normal;
+	font-weight: 400;
+	margin: 70px 0 20px;
+
+	}
+
+img.loguito {
+	margin: 120px 0;
+}
+
+/* MAIN STYLES */
+
 main {
 	max-width: 900px;
 	text-align: center;
@@ -26,11 +49,15 @@ main {
 	padding: 0 50px;
 }
 
+/* FOOTER */
+
 footer {
 
 	text-align: center;
 	padding-bottom: 15px;
 }
+
+/* LINKS */
 
 a{
 	color: #EE4F1A;
@@ -41,6 +68,8 @@ a:hover{
 	opacity: .5;
 	background-color: transparent;
 }
+
+/* TEXT STYLES */
 
 h1{
 
@@ -83,7 +112,7 @@ h5{
 
 p{
 
-	color: white;
+	color: #898989;
 	font-size: 16px;
 	font-variant: normal;
 
