@@ -1,0 +1,111 @@
+body {
+
+	margin: 0;
+	background-color: #1B1C1D;
+	font-family: Crimson Text;
+	line-height: 26px;
+}
+
+header {
+
+  background-image: url("../img/abstemios-header.jpg");
+  background-color: #1B1C1D; 
+  height: 650px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; /* Resize the background image to cover the entire container */
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+main {
+	max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+footer {
+
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+a{
+	color: #EE4F1A;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+h1{
+
+	color: white;
+	font-size: 30px;
+	font-variant: normal;
+	font-weight: 400;
+	margin: 20px 0 40px;
+
+	}
+
+h2{
+
+	color: white;
+	font-style: italic;
+	font-size: 24px;
+	font-variant: normal;
+	font-weight: 400;
+
+	}
+
+
+h3{
+
+	color: white;
+	font-size: 20px;
+	font-variant: bold;
+	margin: 0;
+
+	}
+
+h5{
+
+	color: white;
+	font-size: 18px;
+	font-variant: bold;
+
+	}
+
+
+p{
+
+	color: white;
+	font-size: 16px;
+	font-variant: normal;
+
+	}
+
+p.footer{
+
+	color: #898989;
+	font-size: 11px;
+	font-variant: normal;
+	line-height: 16px;
+	margin: 0;
+
+	}
+
+p.social{
+
+	color: #898989;
+	font-size: 14px;
+	font-variant: normal;
+	font-style: italic;
+	line-height: 16px;
+	margin: 0;
+
+	}
