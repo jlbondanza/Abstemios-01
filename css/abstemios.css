@@ -74,6 +74,19 @@ img {
 	display: inline-block;
 }
 
+.elvino {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.bottle {
+	height: 600px;
+}
+
 .redes {
 	width: 200px;
 	text-align: center;
@@ -84,7 +97,6 @@ img {
 
 #vino {
 	background-color: #101010; 
-	height: 900px;
 	width: 100vw;
     position: relative;
     left: 50%;
@@ -93,6 +105,7 @@ img {
     margin-right: -50vw;
     margin-top: 80px;
     margin-bottom: 0;
+    overflow: hidden;
 }
 
 #nosotros {
@@ -101,16 +114,24 @@ img {
 	margin-top: 100px;
 }
 
+#social {
+	display: inline-block;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+
 /* FOOTER */
 
 footer {
 
 	text-align: center;
 	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 hr  {
-	max-width: 50%;
+	max-width: 80%;
 	border: none;
     height: 0.5px;
     background-color: #333;
@@ -160,6 +181,7 @@ p.names {
 	}
 .grey {
 	color: #EE4F1A;
+	max-width: 100%;
 }
 
 h5{
@@ -167,6 +189,7 @@ h5{
 	color: white;
 	font-size: 18px;
 	font-variant: bold;
+	margin: 0;
 
 	}
 
