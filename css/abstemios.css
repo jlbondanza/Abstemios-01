@@ -1,8 +1,8 @@
 body {
-
+	display: inline;
 	margin: 0;
 	background-color: #1B1C1D;
-	font-family: Crimson Text;
+	font-family: Crimson Text, helvetica, arial;
 	line-height: 26px;
 }
 
@@ -50,12 +50,70 @@ main {
 	padding: 0 50px;
 }
 
+img {
+	max-width: 100%;
+}
+
+.groupimg {
+	width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 80px;
+    margin-bottom: 0;
+
+}
+
+.us {
+	width: 200px;
+	text-align: center;
+	margin: 10px 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.redes {
+	width: 200px;
+	text-align: center;
+	margin: 10px 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+#vino {
+	background-color: #101010; 
+	height: 900px;
+	width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+#nosotros {
+	display: inline-block;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
 /* FOOTER */
 
 footer {
 
 	text-align: center;
 	padding-bottom: 15px;
+}
+
+hr  {
+	max-width: 50%;
+	border: none;
+    height: 0.5px;
+    background-color: #333;
 }
 
 /* LINKS */
@@ -85,13 +143,11 @@ h1{
 h2{
 
 	color: white;
-	font-style: italic;
 	font-size: 24px;
 	font-variant: normal;
 	font-weight: 400;
 
 	}
-
 
 p.names {
 
@@ -102,6 +158,9 @@ p.names {
 	font-weight: 600;
 
 	}
+.grey {
+	color: #EE4F1A;
+}
 
 h5{
 
