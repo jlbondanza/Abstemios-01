@@ -125,6 +125,10 @@ img {
 	margin-top: 60px;
 }
 
+	.redes img {
+		max-width: 30%;
+	}
+
 
 /* FOOTER */
 
@@ -256,7 +260,7 @@ p.social{
 	}
 
 	.redes img {
-		max-width: 40%;
+		max-width: 50%;
 	}
 
 	#vino {
