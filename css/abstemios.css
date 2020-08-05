@@ -4,6 +4,7 @@ body {
 	background-color: #1B1C1D;
 	font-family: Crimson Text, helvetica, arial;
 	line-height: 26px;
+	max-width: 1000px;
 }
 
 /* HEADER STYLES */
@@ -44,7 +45,7 @@ img.loguito {
 /* MAIN STYLES */
 
 main {
-	max-width: 900px;
+	max-width: 60vw;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 50px;
@@ -67,11 +68,15 @@ img {
 }
 
 .us {
-	width: 200px;
+	width: 20%;
 	text-align: center;
 	margin: 10px 5px;
 	padding: 5px;
 	display: inline-block;
+}
+
+.us img {
+	max-width: 50%;
 }
 
 .elvino {
@@ -158,6 +163,7 @@ h1{
 	font-variant: normal;
 	font-weight: 400;
 	margin: 20px 0 40px;
+	line-height: 40px;
 
 	}
 
@@ -222,3 +228,57 @@ p.social{
 	margin: 0;
 
 	}
+
+/* MEDIA QUERIES MOBILE */
+
+@media (max-width: 500px) {
+
+	main {
+	max-width: 70vw;
+}
+
+	.us {
+	width: 40%;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+	#nosotros {
+		display: inline-block;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.redes {
+		width: 100px;
+	}
+
+	.redes img {
+		max-width: 40%;
+	}
+
+	#vino {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+	.elvino {
+    display: inline;
+    text-align: center;
+    margin-left: 20px;
+
+   }
+
+   .bottle {
+   	margin-left: 20%;
+   }
+
+   p.cata {
+   	max-width: 80%;
+   	margin: 0 auto;
+   }
+}
