@@ -73,6 +73,7 @@ img {
 	margin: 10px 5px;
 	padding: 5px;
 	display: inline-block;
+	line-height: 35px;
 }
 
 .us img {
@@ -98,6 +99,7 @@ img {
 	margin: 10px 5px;
 	padding: 5px;
 	display: inline-block;
+	line-height: 35px;
 }
 
 #vino {
